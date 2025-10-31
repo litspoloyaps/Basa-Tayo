@@ -1,0 +1,5 @@
+admin:12345
+lito:book123
+maria:read2025
+juan:library2025
+teacher:securepass
