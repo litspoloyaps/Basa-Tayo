@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BasaTayo - E-Library</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color:  #FFA500;
+    }
+    header {
+      background-color: #FFA500;
+      padding: 15px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 18px;
+      color: white;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .search-box {
+      display: flex;
+      align-items: center;
+    }
+    .search-box input {
+      padding: 6px 10px;
+      border: 1px solid #333;
+      border-radius: 0;
+      outline: none;
+    }
+    .search-box button {
+      padding: 6px 10px;
+      border: 1px solid #333;
+      background: white;
+      cursor: pointer;
+    }
+    .hero {
+      background-color: #FFA500;
+      padding: 60px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .hero-text {
+      max-width: 50%;
+    }
+    .hero-text h1 {
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0;
+    }
+    .hero-text p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .hero img {
+      width: 200px;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+        padding: 3px;
+        background-color: #FFA500;
+        color: white;
+      }
+
+      
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      📚 BasaTayo
+    </div>
+    <nav>
+      <a href="home.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="library.html">LIBRARY</a>
+      <a href="author.html">AUTHOR</a>
+      <a href="search.html">SEARCH</a>
+    </nav>
+
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="login.html">
+        <button style="padding: 10px 20px; background: #333; color: white; border: none; border-radius: 5px; cursor: pointer;">
+          LOGIN
+        </button>
+      </a>
+      
+      <a href="signupform.html">
+        <button style="padding: 10px 20px; background: #333; color: white; border: none; border-radius: 5px; cursor: pointer;">
+          SIGNUP
+        </button>
+      </a>
+    </div>
+    
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>THE E-LIBRARY <br> E-BOOK LIBRARY.</h1>
+      <p>Browse the collection of e-books.<br>
+         Read Books anytime, anywhere.</p>
+    </div>
+    <img src="https://imgs.search.brave.com/pVrJcPqSI7n2xnPVYEoNJIlUhN2EfUBrZ31dMd4mq2w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ib29r/dmliZS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMjMvMDkv/Qm9vay1TZXJpZXMu/anBn" alt= "Reading Illustration" style= "background-color: #FFA500">
+  </section>
+
+
+  <footer style="background-color:#FFA500; color:white; text-align:center; padding:15px; position:fixed; bottom:0; width:100%;">
+    <p>©2025 BasaTayo, All Rights Reserved.</p>
+    <p style="margin-top:5px; font-size:14px;">Website Design by Lito Poloyapoy.</p>
+  </footer>
+  
+  
+
+</body>
+</html>

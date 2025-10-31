@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup form BasaTayo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #FFA500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .signup-box {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 320px;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #FFA500;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #e69500;
+    }
+    .social-btn {
+      display: flex;
+      flex-direction: column;
+      margin-top: 15px;
+    }
+    .social-btn a {
+      display: block;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 6px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .gmail { background: #DB4437; }
+    .facebook { background: #4267B2; }
+    .phone { background: #34A853; }
+  </style>
+</head>
+<body>
+
+  <div class="signup-box">
+    <h2>Create Account</h2>
+    <form action="signup_success.html" method="POST">
+      <input type="text" name="username" placeholder="Enter Username" required>
+      <input type="password" name="password" placeholder="Enter Password" required>
+      <button type="submit">Sign Up</button>
+      <p>Already have an account? <a href="BasaTayo.html">Login</a></p>
+    </form>
+
+    <p style="margin:15px 0; font-weight:bold;">Or Sign Up With</p>
+    <div class="social-btn">
+      <a href="#" class="gmail">Sign Up with Gmail</a>
+      <a href="#" class="facebook">Sign Up with Facebook</a>
+      <a href="#" class="phone">Sign Up with Phone Number</a>
+    </div>
+  </div>
+
+</body>
+</html>
