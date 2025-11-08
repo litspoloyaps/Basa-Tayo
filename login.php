@@ -24,6 +24,7 @@ if ($found) {
 } else {
     echo "<h2>Login Failed ❌</h2>";
     echo "<p>Invalid Username or Password.</p>";
-    echo "<p><a href='BasaTayo.html'>🔙 Try Again</a></p>";
+    echo "<p><a href='index.html'>🔙 Try Again</a></p>";
 }
+
 ?>
